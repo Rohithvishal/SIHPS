@@ -28,9 +28,15 @@ To inspire and celebrate success, the platform will highlight notable alumni ach
 
 
 ## Proposed Solution / Architecture Diagram
+![SIHS img1](https://github.com/user-attachments/assets/55bcbeaa-db43-447a-ab28-f05c3c175c68)
+
+
+
 
 
 ## Use Cases
+![SIHS img2](https://github.com/user-attachments/assets/bfdb3e76-88f1-43ee-956d-a553aab1f946)
+
 
 
 ## Technology Stack
@@ -39,16 +45,19 @@ To inspire and celebrate success, the platform will highlight notable alumni ach
 Technologies: React.js for the web application, React Native or Flutter for the mobile app.
 Purpose: The frontend is responsible for delivering a seamless and user-friendly interface that alumni can use to interact with the platform. React.js enables the creation of responsive and dynamic web applications, while React Native or Flutter ensures the development of high-performance mobile apps compatible with both iOS and Android.
 Key Features: The frontend will support real-time updates (e.g., job postings, event notifications) and intuitive navigation, making it accessible to users of all technical backgrounds. Frameworks like React also allow for component reuse, speeding up development and ensuring consistency across web and mobile platforms.
+
 2.**Backend**
 
 Technologies: Node.js with Express.js or Django with Python.
 Purpose: The backend serves as the brain of the platform, managing application logic, processing requests, and connecting the frontend to the database. Node.js offers scalability and is ideal for handling real-time interactions, such as notifications and chat features. Django, being a robust framework, provides built-in security features and simplifies backend development.
 Key Features: The backend will implement secure APIs to handle functionalities such as alumni registration, data retrieval, donation processing, and job portal operations. It will also ensure scalability to accommodate an increasing number of alumni users.
+
 3.**Database**
 
 Technologies: PostgreSQL for structured data and MongoDB for unstructured data.
 Purpose: The database stores and retrieves critical information such as user profiles, alumni directories, job postings, and donation records. PostgreSQL, a relational database, is used for structured data like user details and event schedules, ensuring data integrity and easy querying. MongoDB, a NoSQL database, handles unstructured data like user-generated content, feedback, and logs.
 Key Features: The use of both relational and NoSQL databases ensures flexibility and optimal performance. Indexed queries will ensure quick searches within the alumni directory and job portal. Backup mechanisms will protect against data loss.
+
 4.**Cloud Hosting and Services**
 
 Technologies: AWS (EC2, S3, RDS), Firebase for push notifications.
