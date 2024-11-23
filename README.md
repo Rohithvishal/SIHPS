@@ -67,8 +67,11 @@ Key Features: The platform will leverage auto-scaling to handle high traffic dur
 
 ## Dependencies
 1.**Payment Gateway:** Integration with PayPal, Stripe, or Razorpay for donations.
+
 2**Authentication:** Secure OAuth2 implementation (e.g., Google Sign-In).
+
 3.**Third-party APIs:** For geolocation, email services, and job boards.
+
 4.**Analytics:** Google Analytics or Mixpanel for tracking engagement.
 
 
